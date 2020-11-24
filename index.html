@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="vierport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Atakan KAPLAN">
+    <meta name="description" content="BM103 UYGULAMA ÖDEVİ İÇİNDİR.">
+    <title>Kaplan Pansiyon</title>
+    <link rel="shortcut icon" type="image/png" href="img/amblem.jpg">
+    <style>
+        .header {
+            background-image: url('img/header.jpg');
+            padding: 0%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            text-align: center;
+        }
+        .nav {
+            overflow: hidden;
+            background-color: green;
+            display: flex;
+            top: 0;
+        }
+        @media(max-width: 630px) {
+            .nav {
+                flex-direction: column;
+            }
+        }
+        .nav a {
+            float: left;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .nav a:hover {
+            background-color: orange;
+            color: #ffffff;
+        }
+        .nav a.active {
+            background-color: wheat;
+            color: #ffffff;
+        }
+        .main {
+            padding: 2%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        .footer {
+            position: relative;
+            background-color: green;
+            text-align: center;
+            width: 100%;
+            height: 75px;
+        }
+        .footer #copyright {
+            display: inline-block;
+            text-align: center;
+            padding-top: 40px;
+            color: #d4a697;
+        }
+        @media (max-width: 460px;) {
+            .footer #copyright {
+                font-size: 25px;
+            }
+        }
+        #sosyal {
+            position: static;
+            right: 30px;
+            top: 20px;
+            width: 300px;
+            height: 40px;
+        }
+        #sosyal img {
+            width: 60px;
+            height: 40px;
+        }
+        @media (max-width: 650px;) {
+            @sosyal {
+                position: initial;
+                width: 100%;
+                bottom: 2%;
+            }
+        }
+
+    </style>
+</head>
+
+<body style="background-image: url('img/body.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+    <div class="header">
+        <img src="img/logo.png" alt="logo" style="max-width: 30%;height: auto;">
+        <img src="img/amblem.jpg" alt="amblem" style="max-width: 28%;height: auto;">
+    </div>
+    <div class="nav">
+        <a class="active" href="index.html">ANASAYFA</a>
+        <a href="hizmet.html">HİZMETLERİMİZ</a>
+        <a href="kurumsal.html">KURUMSAL</a>
+        <a href="kariyer.html">KARİYER</a>
+        <a href="iletisim.html">İLETİŞİM</a>
+    </div>
+    <div title="Kaplan Pansiyon © 2020" class="main" style="background-color: #bad4e51e;padding: 3%;margin: 2.5%;">
+        <h1 style="text-align: center;font-family: Arial, Helvetica, sans-serif;padding-bottom: 2%;">►►►Türkiye'nin Maldivlerinde
+            Kaplan Pansiyon◄◄◄</h1>
+        <img src="img/bodyfoto.jpeg" alt="foto1" style="max-width: 35%;height: auto;float: left;padding: 2%;">
+        <h3 style="text-align;">Kaplan Pansiyon</h3>
+        <p>Kaplan Pansiyon, son zamanlarda Türkiye'nin Maldivleri diye tanınan Salda Gölü çevresinde 
+        ve göle yalnızca 500metre uzaklıkta bulunan doğayla iç içe bir tatil konaklama merkezidir. 
+        Salda Gölü Türk halkı için 2017'den beri ünlenmiş olsa da aslında bu bölge 
+        1990'lı yıllarda çok popüler bir halde ve yabancı turistler için önemli bir lokasyon konumundaydı. 
+        Biz bu bölgede 20 yılı aşkındır misafirlere ve turislere hizmet veriyor olsak 
+        ve öncesinde de konaklama hizmetlerimiz olsa da Kaplan Pansiyon olarak henüz daha yeni kurulmuş bir işletmeyiz. 
+        2018 yılında ailecek açtığımız işletmemiz ile hizmet vermeye devam ediyoruz. </p>
+        <img src="img/fotobody.jpg" alt="foto2" style="max-width: 49%;height: auto;float: right;padding: 2%;">
+        <h3 style="text-align;">☺Salda Gölü</h3>
+        <p>Salda Gölü, 1. derece sit alanı olarak geçen tamamen doğal ve tam olarak kesinliği bilinmese de meteor düşmesi ile
+        oluştuğu varsayılan bir güzelliğimizdir. Gölün dokusunun Mars yüzeyi ile eşdeğer olduğu bulunmuş ve Nasa da dahil olarak
+        ülkemiz çevresinde tamamen korunmaya çalışılıyordur. Gölün tabanındaki kil yapısı ve suyundaki mineral yoğunluğu ile 
+        sağlığınıza çok faydalıdır. Göl çevresi 44kilometre ve aynı zamanda birçok plaja sahip ancak ünlenmesinin sebeplerinden
+        biri olan salda kasabası bölgesi yani Maldivler, bu yörenin söyleşi ile Saldivler, gölün içerisinde bulunan adacıklar 
+        ve beyaz kumsalı ile biraz daha Maldivleri anımsatan farklı bir dokuya sahip.</p>
+    </div>
+    <div class="footer">
+        <div id="copright">Copyright All Rights Reserved © 2020</div>
+        <div id="sosyal">
+            <a href="https://tr.facebook.com/" target="_blank" style="margin-left: 28px;"><img src="img/facebook.jpg" alt="facebook"
+                    title="Facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.jpeg" alt="instagram"
+                    title="İnstagram"></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="img/twitter.png" alt="twitter"
+                    title="Twitter"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="img/youtube.png" alt="youtube"
+                    title="Youtube"></a>                       
+        </div>
+    </div>
+
+</body>
+
+</html>
