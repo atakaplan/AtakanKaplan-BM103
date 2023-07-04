@@ -1,4 +1,4 @@
-KAPLAN - PANSİYON- WEBSITE
+KAPLAN - APART & PANSİYON - WEBSITE
 
 Website
 I designed the website of my own business called Kaplan Pension
